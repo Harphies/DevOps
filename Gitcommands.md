@@ -6,3 +6,4 @@
 - git reset -hard id
 - git checkout .
 - rm -rf .git
+- git log --oneline
