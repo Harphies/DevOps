@@ -1,10 +1,10 @@
-## A curated list of deployed machine learning, deep learning models to different production platforms:
+## A curated list of Machine Learning Operations MLOps
 
 ---
 
 ---
 
-## Platforms
+## Cloud Platforms
 
 - Heroku
 - AWS
