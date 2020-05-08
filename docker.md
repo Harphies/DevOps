@@ -1,9 +1,45 @@
-## A List of essential docker commands
+## A List of essential docker resources
 
 [More docker commands](https://vmokshagroup.com/blog/steps-to-build-run-and-manage-docker/)
 [Useful Link](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 [Docker comprehensive cheat sheet](https://phoenixnap.com/kb/list-of-docker-commands-cheat-sheet)
 [Docker By Examples](https://www.slideshare.net/CodeOps/docker-by-example-basics)
+
+## Docker Essentials
+
+- Running Docker containers
+- Creating a DockerFile
+- Creating Docker Image from a DockerFile
+- Buiding a Docker Image from DockerFile
+- Pushing a Docker Image to the Docker hub repository
+- Docker compose
+- Docker Swarm
+- Networking In Docker
+- Docker Hosts
+
+# Why you Need Docker
+
+- Compatability and dependency issues
+- Long setup time accross different platform
+- Different Development/Testing/production
+
+# What can docker do
+
+- Containerized Applications that can run on different platforms with thier own libraries and dependencies.
+- Run each service with its own dependencies in separate containers.
+
+# A few things to know about docker
+
+- Containers are completely Isolated environment that can have their own Process/services, Networking Interfaces and Mount
+- There are different types of containers but docker uses LSC containers.
+- Docker hub is the registry where all contanarized applications are hosted.
+- Docker Image is a package/template used to create one or more containers.
+- Docker container are runing Instances of Image that are Isolated and have their own environment and set of process
+- Think of Docker Image and container like an OOP Image is the class and container are Instances of the class having thier separate attributes.
+- [Go here for more](https://hackernoon.com/docker-commands-the-ultimate-cheat-sheet-994ac78e2888)
+
+## A List of essential docker commands
+
 **docker images** : List available docker Images
 
 **docker build** : Build a docker images
