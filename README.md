@@ -20,12 +20,6 @@
 - [Tensorflow serving](https://github.com/tensorflow/serving)
 - [MLeap](https://mleap-docs.combust.ml/)
 
-# Docker commands
-
-[commands](https://github.com/Harphies/deployments/blob/master/DockerCommands)
-
-```
-List of deployed Apps
-```
+## List of Deployed Models
 
 - [Salary prediction](https://github.com/Harphies/salary-prediction)
