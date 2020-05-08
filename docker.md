@@ -16,9 +16,31 @@
 - Buiding a Docker Image from DockerFile
 - Pushing a Docker Image to the Docker hub repository
 - Docker compose
-- Docker Swarm
+  - It is used to run large application that contain multiple services [docker-compose.yml]
+  - it consist of list of services in the yml file
+  - bring the application up by running 'docker-compose up' command
+  - Docker Swarm
 - Networking In Docker
 - Docker Hosts
+
+## Creating a docker Image steps
+
+- Dockerfile : Create a dockerfile in the current directory of that project
+- Use Dockerfile commands to specify all the needed steps to run the application
+  - FROM : specify a base image
+  - COPY
+  - RUN
+  - ENTRYPOINT
+- docker build . -t [name of the image]: run 'docker build .' to build the dockerfile in the current directory
+- docker run [image name] : test the just created image
+- docker login : Loggin to the docker hub registry
+- docker push [image name] : push the newly created image to the docker hub
+
+## YAML Files
+
+- it used to represent configuration data
+- Equal number of spaces
+- YAML File use a dictionary
 
 # Why you Need Docker
 
