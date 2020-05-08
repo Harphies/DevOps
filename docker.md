@@ -1,39 +1,25 @@
-A List of essential Docker commands
+## A List of essential docker commands
 
-# List all containers
+**docker run [container name]** : run a container from an Image
 
-docker ps
+**docker ps** : List all containers
 
-# List all running containers/ History of all runned containers
+**docker ps -a** : List all running containers/ History of all runned containers
 
-docker ps -a
+**docker stop [Name of the container]** : stop running a container
 
-# stop running container
+Note: use 'docker ps' to get all the list of docker containers you have and search for the name/id of the docker container to stop
 
-docker stop [Name of the container]  
- Note: use 'docker ps' to get all the list of docker containers you have and search for the name/id of the docker container to stop
+**docker rm [name of container]** : remove a container
 
-# remove a container
+**docker images** : List of the Images
 
-docker rm [name of container]
+**docker rmi [Name of the image]** : Remove an image
 
-# List of Images
-
-docker images
-
-# Remove an image
-
-docker rmi [Name of the image]
 Note: Before deleting an image ensure there is no dependent container running out if it.
 Note: delete all dependent container to remove image
 
-# download an Image
-
-docker pull [Image name]
-
-# run a container from an Image
-
-docker run [container name]
+**docker pull [Image name]** : download an Image from the docker hub registry.
 
 # Execute a command on a running container
 
