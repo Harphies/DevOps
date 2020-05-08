@@ -1,5 +1,7 @@
 ## A List of essential docker commands
 
+[More docker commands](https://vmokshagroup.com/blog/steps-to-build-run-and-manage-docker/)
+[Docker comprehensive cheat sheet](https://phoenixnap.com/kb/list-of-docker-commands-cheat-sheet)
 **docker images** : List available docker Images
 
 **docker build** : Build a docker images
@@ -38,7 +40,7 @@
 
 **docker volume** : Manage docker volumes
 
-** docker wait** : Wait until a container stop, then print its exit code
+**docker wait** : Wait until a container stop, then print its exit code
 **docker run [container name]** : run a container from an Image
 
 **docker ps** : List all containers
