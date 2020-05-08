@@ -21,54 +21,39 @@ Note: delete all dependent container to remove image
 
 **docker pull [Image name]** : download an Image from the docker hub registry.
 
-# Execute a command on a running container
+**docker exec [container name][commands]** : Execute a command on a running container
 
-docker exec [container name][commands]
+**cat /etc/_release_** : check for OS details
 
-# check for OS details
+**-d command** : run a command in background
 
-cat /etc/_release_
-
-# run a command in background
-
--d command
-
-# run a container for certain time
-
-docker run -d [container name] sleep [time duration]
+**docker run -d [container name] sleep [time duration]** : run a container for a certain time
 Note: -d means run in the background
 
-# running a command on a container
+**e.g docker run -d ubuntu sleep 1000** : running a command on a container
 
-e.g docker run -d ubuntu sleep 1000
+## Steps to run a command in a running container
 
-# Steps to run a command in a running container
-
-1.  identify the container with docker ps command
-2.  docker exec [container id][command]
-    exmple command here is cat /etc/_release_
+- identify the container with docker ps command
+- docker exec [container id][command]
+  exmple command here is cat /etc/_release_
 
 ## Docker Run commands
 
-1.  TAG
-2.  attach and detach mode
-3.  STDIN (standard input) for docker container to listen to a standard input of the host.
-    using the '-i' command
+- TAG
+- attach and detach mode
+- STDIN (standard input) for docker container to listen to a standard input of the host.
+  using the '-i' command
+- PORT MAPPING (-p for PORT specifier)
+- VOLUME MAPPING (-v)
 
-# Note: the underlying host where docker is installed is called docker host/docker engine
+## Some useful Notes
 
-4.  PORT MAPPING (-p for PORT specifier)
-
-# Note: every container have an IP assignedd by default.
-
-# Note: A user can access a container via the port number.
-
-# Note users outside of the host can't access the container with the asigned IP on the host, because it's local.
-
-# Note: you can run different instances of your application by mapping them with different host.
-
-# Note: You can't map a port more than once on the docker host.
-
-5.  VOLUME MAPPING (-v)
+- Every container have an IP assignedd by default.
+- A user can access a container via the port number.
+- Users outside of the host can't access the container with the asigned IP on the host, because it's local.
+- The underlying host where docker is installed is called docker host/docker engine
+- You can run different instances of your application by mapping them with different host.
+- You can't map a port more than once on the docker host.
 
 ## Advanced Docker Run Commands
