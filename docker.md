@@ -24,7 +24,7 @@
 
 - Compatability and dependency issues
 - Long setup time accross different platform
-- Different Development/Testing/production
+- Different Development/Testing/Production
 
 # What can docker do
 
