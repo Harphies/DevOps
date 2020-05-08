@@ -1,5 +1,44 @@
 ## A List of essential docker commands
 
+**docker images** : List available docker Images
+
+**docker build** : Build a docker images
+
+**docker commit** : create an image from a container
+
+**docker push** : Push an Image or a repository to a registry
+
+**docker rename** : Rename a container
+
+**docker port** : List port mapping or a specific mapping for the container
+
+**docker restart** : restart a container
+
+**docker save** : save one or more images to a tar archive (streamed to STDOUT by default)
+
+**docker search** : search the docker hub for images
+
+**docker services** : manage the docker services
+
+**docker stack** : Manage Docker stacks
+
+**docker start** : start one or more stopped containers
+
+**docker swarm** : Manage Docker swam
+
+**docker tage** : Tag an image into a repository
+
+**docker top** : display the running processes of a container
+
+**docker unpause** : Unpause all processes within one or more container
+
+**docker update** : Update the configuration of one or more containers
+
+**docker version** : show the docker version information
+
+**docker volume** : Manage docker volumes
+
+** docker wait** : Wait until a container stop, then print its exit code
 **docker run [container name]** : run a container from an Image
 
 **docker ps** : List all containers
