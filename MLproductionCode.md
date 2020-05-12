@@ -16,9 +16,6 @@
 ## Notes
 
 - We do not deploy model using jupiter Notebooks, we deploy using python scripts
-- We write production code using procedural style of coding
-
-  - Training script : load the data preprocess it and train the model
-  - Scoring scripts : score the model and save it.
-
+- Scikit-learn Pipeline is the best choice for writing production pipeline code.
+- We can write production code using procedural style of coding
 - We write production code with OOP programming style
