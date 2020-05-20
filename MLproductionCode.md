@@ -1,4 +1,4 @@
-## Machine Learning IN production Environmnet
+## Machine Learning In production Environmnet
 
 ## Stages to write Production code for
 
