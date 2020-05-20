@@ -19,3 +19,16 @@
 - Scikit-learn Pipeline is the best choice for writing production pipeline code.
 - We can write production code using procedural style of coding
 - We write production code with OOP programming style.
+
+## CI/CD : Continous Integration and Contnous Deployment
+
+- To automate the stages of app development
+
+- Continous Intgration
+  - Build
+  - Test
+  - Merge
+- Continous Delivery
+  - Automatically Release to Repository
+- Continous Deployment
+  - Automatically deploy to production
