@@ -3,7 +3,7 @@ from sklearn.externals import joblib
 from flask import Flask, request
 import numpy as np
 import pandas as pd
-from flasgger import Swagger
+# from flasgger import Swagger
 
 
 # Load the model
@@ -12,7 +12,7 @@ model = joblib.load('clf.pkl')
 
 # Initiate the Flask App
 app = Flask(__name__)
-swagger = Swagger(app)
+# swagger = Swagger(app)
 
 
 @app.route('/predict')
