@@ -41,5 +41,5 @@
 
 # Notes
 
-On premises IT -> Infrastructuree -> Platform -> Software as Services
-Cloud service broker: Bridge between two cloud providers.
+- On premises IT -> Infrastructuree -> Platform -> Software as Services
+- Cloud service broker: Bridge between two cloud providers.
