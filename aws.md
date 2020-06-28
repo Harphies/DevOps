@@ -1,4 +1,4 @@
-## Amazon web services (AWS) Associate
+## Amazon web services (AWS) Certified Developer Associate
 
 ## List of AWS services
 
@@ -43,3 +43,26 @@
 
 - On premises IT -> Infrastructuree -> Platform -> Software as Services
 - Cloud service broker: Bridge between two cloud providers.
+
+## AWS CLI and SDK settings
+
+- Create a AWS Account
+- Download the AWS CLI for your OS in my case [Window] and install
+- Create an IAM programatic user in order to use the AWS CLI against the AWS services.
+- Run AWS configure in the CLI terminal to setup the access key and the secret Acess Key
+- To check the access key setup earlier
+  - Nagivate to system name: in my own case [C:\Users\taofe] use Gitbash and run the following commands
+  - cd .aws
+  - ls -al to have access to the config and the credential files.
+  - cat credentials
+  - cat configure
+
+## AWS Shell
+
+-
+
+## AWS Commands
+
+- aws --version
+- aws help
+- aws ec2 help
