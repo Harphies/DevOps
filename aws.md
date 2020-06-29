@@ -43,6 +43,7 @@
 
 - On premises IT -> Infrastructuree -> Platform -> Software as Services
 - Cloud service broker: Bridge between two cloud providers.
+- Policy: A set of permissions
 
 ## AWS CLI and SDK settings
 
@@ -57,12 +58,10 @@
   - cat credentials
   - cat configure
 
-## AWS Shell
-
--
-
 ## AWS Commands
 
 - aws --version
 - aws help
 - aws ec2 help
+
+## identity and Access management (IAM)
