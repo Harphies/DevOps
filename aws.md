@@ -65,3 +65,29 @@
 - aws ec2 help
 
 ## identity and Access management (IAM)
+
+- User
+- Group
+- Role
+- Policy
+
+## Virtual Private Cloud : A virtual network dedicated to your AWS Account
+
+- Create a VPC in another region
+  - Create the subnets and associate it with a VPC (We can create both Private and Public subnets)
+    - Configure the settings of the subnet (like auto assign of public IP) for public subnets
+  - Create Internet gateway in the subnet
+    - Attach the Internet gateway to a Virtual Private Cloud
+  - Create a NAT Gateway and associate it with a subnet
+    - Allocate an Elastic IP
+  - Create the Route table (Public and Private)
+    - Associate a subnet to the route table
+    - Edit the routes and add some default routes and associate it with a NAT gateway.
+  - Create Network ACL
+    - configire the inbound and outbound rules
+  - Launch EC2 instances for all the servers
+    - configure the seurity group and associate it with the VPC
+  - Create a loadbalancer
+    - Application Load balancer
+    - Network Load balancer
+    - Add a Load balancer to the Instances of the webser
