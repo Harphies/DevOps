@@ -91,3 +91,79 @@
     - Application Load balancer
     - Network Load balancer
     - Add a Load balancer to the Instances of the webser
+
+## EC2: Elastic Compute Cloud
+
+- Time-base scaling
+- Scale on demand
+- Instances Types
+  - General purpose t2 micro
+  - Compute Optimized
+  - GPU Graphics
+  - GPU Compute
+  - Memory Optimized
+  - Storage Optimized
+- O/S's
+  - Linux (Base Images Only)
+    - Amazon Linux
+    - Amazon Linux 2
+    - SUSE Linux Enterprise Server
+    - Red Hat Enterprise Linux
+    - Ubuntu Server
+  - Windows (Base Images Only)
+    - Server 2016
+    - Server 2012 R2
+    - Server 2012
+    - Server 2008
+  - Sub-options for:
+    - SQL Server Base
+    - SQL Server Web
+    - SQL Server Standard
+
+## EC2 General Use
+
+- select a region
+- select Amazon machine Image
+- use default VPC
+- select a subnet
+- Enable Auto Assign IP
+- Optional IAM Role: In case we want the Instance to access other AWS services
+- Shutdown behavior stop
+- Protect against Accidental termination
+- leave the network interface as default: allow it to auto assign IP
+- Skip storage settings
+- Add tags
+- Configure the security group
+- create a key pair for launch
+- copy the public IPv4 address to clipboard (that is where the server will be accessed)
+- Anything you want to be running will be placed in the Advanced Details: User data tab (ther web application we want to run).
+
+## Amazon machine images:machines used
+
+- Images can run instances
+
+## Elastic IPs
+
+- It allows to deal with the dynamic IP address and allow us to use the same IP address everytime.
+- steps
+  - Allocate an IP
+  - Associate it with the running instance
+
+## EC2 Load Balancer: Speed and efficiency.
+
+- It allows us to distribute loads to web servers
+- Steps:
+  - Run mutltiple Instances with each instances running the same application.
+  - Create Application Load Balancer
+    - Name
+    - scheme: internet-facing
+    - ipv4
+    - Listener protocol: http:80
+    - Avalability zone region
+    - Configure security groups
+    - Configure routing
+      - New target group
+      - protocol:80
+      - Register the Instances to use the Load balancer
+
+## EC2 Storage
