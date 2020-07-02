@@ -166,4 +166,53 @@
       - protocol:80
       - Register the Instances to use the Load balancer
 
-## EC2 Storage
+## Route 53 DNS
+
+- AWS managed Domain name system (DNS)
+- Provides translation of names to IP addresses
+- store names to IP mappings
+- Answer resolution queries from client
+- Ipv6 compliant
+- within 60 seconds propagation
+- Traffic management
+- Route 53 Zones
+- Create record sets
+- Aliases
+- traffic flow
+- Route 53 Best practices
+
+## Database and Storage services
+
+## Simple Storage service
+
+- S3 components
+  - Bucket
+    - objects are stored in buckets
+  - Objects
+    - entity stored in Amazon S3
+    - Custom meta data
+    - default meta data
+  - Keys
+    - Unique identifier for an object
+    - Every object has one key
+- Steps:
+  - Create a bucket [public and private]
+    - Name
+    - region
+    - upload the file and set the permission
+    - bucket best practices
+- Data replication : region replication of data in a bucket
+
+  - for data replication for latency
+  - copy to another region and reference it there.
+
+- Glacier: for large file that doesn't require frequent access
+  - data warehouse services
+- Security
+- Events : Ability to have something to occur whenever an activity occurs.
+- Best practices of bucket in production
+  - use IAM permission, no full control
+  - Enable bucket enscryption for data at rest
+    - Use S3 SSE-KMS for key management
+    - use customer provided master key.
+  - Enable access logging for S3 buckets.
