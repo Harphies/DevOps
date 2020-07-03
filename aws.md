@@ -211,8 +211,45 @@
 - Security
 - Events : Ability to have something to occur whenever an activity occurs.
 - Best practices of bucket in production
+
   - use IAM permission, no full control
   - Enable bucket enscryption for data at rest
     - Use S3 SSE-KMS for key management
     - use customer provided master key.
   - Enable access logging for S3 buckets.
+  - Enable versioning
+    - protect from overite and deletion
+    - retrieve/ restore deleted objects or rollback
+  - Back Up buckets
+
+  ## Database(RDS/EC2)
+
+  - Amazon Aurora : MySQL and PostgreSQL-compatible
+  - MySQL
+  - PostgreSQL : oracle compatible
+  - MariaDB
+  - Oracle
+  - Microsoft SQL Server
+    - SQL Server Express
+    - SQL Server Web
+    - SQL Server Enterprise edition
+    - SQL Server Standard edition
+  - RDS Interfaces
+    - RDS console
+    - AWS CLI
+    - Progmatic Interface
+      - AWS SDKs
+      - Libraries
+      - RDS API
+  - RDS Security
+    - Security Groups
+      - DB security group
+      - VPC security groups
+      - EC2 security groups
+  - IAM Permissions for the services not the data
+  - RDS configuration
+  - RDS Scaling
+  - RDS Best practices
+  - Database on EC2
+
+## DynamoDB (Amazon NoSQL)
