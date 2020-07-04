@@ -253,3 +253,20 @@
   - Database on EC2
 
 ## DynamoDB (Amazon NoSQL)
+
+## Simple Queue Services (SQS)
+
+- Standard Queue
+- FIFO Queue
+- message retension period
+- visibility tmeout
+- message size
+- delivery delay (Queue setting)
+- dead letter queue
+- cost allocation tags
+- server side encryption (SSE)
+- Cloudwatch monitoring
+- Queue creation
+- Queue Interaction
+- SQS Lambda Invocation
+- SQS best practices
