@@ -270,3 +270,80 @@
 - Queue Interaction
 - SQS Lambda Invocation
 - SQS best practices
+
+## Simple Notification System (SNS)
+
+- Providers and consumers (Publish and subscribe)
+- Publisher
+  - SNS Topics
+    - Lambda( code execution environment)
+    - SQS
+    - HTTP/S
+    - Email
+    - SMS
+    - Mobile Push
+      - Mbile push Notification services
+        - Amazon (ADM)
+        - APNS
+        - Baidu
+- Cloudwatch SNS
+- SNS Topics (creation)
+- SNS Email/SMS
+- Filter policy
+- SNS Lambda Invocation
+- SNS Best practices
+
+## Lambda: serverless compute
+
+- Lambda Event Sources
+- Lambda Scalability and Avalability
+- Lambda Security
+- Lambda function Lifecycle
+  - Develop
+  - Upload
+  - Monitor and Troubleshoot
+- Programming model (Node.js)
+  - Handler
+  - Context
+  - Logging
+  - Exceptions
+- Lambda creation
+  - runtime
+  - Event
+  - Logging
+- Lambda best practices
+
+## Elastic Beanstalk: For Large Rapid application development
+
+- Application lifecycle
+  - Create an application
+  - Elastic Beanstalk launches an environment
+  - Manage environment
+- EB Development stack
+- EB Database
+- EB Platform updates
+- EB Best Practices
+
+## Kinesis: Realtime data procesing and Analysis services
+
+- capture, process, ans store video streams for analytics and machine leaning
+- serverless
+- Build real-time application
+- shards
+- partition keys
+- Kinesis Streams
+- kinesis Firehose
+- kinesis analytics
+
+## API Gateway: Build, deploy and manage
+
+- Creating a fully managed API that scales
+- API Gateway creation and Integration with Lambda
+- API Gateway creation with HTTP Integration
+- API Gateway Security
+
+## CloudFormation: Replicating/ duplicate existing environment
+
+- cloudformation templates
+- cloudformation stacks
+- cloudformation best practices
