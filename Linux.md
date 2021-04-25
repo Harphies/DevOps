@@ -2,6 +2,7 @@
 
 - [More commands](https://appletree.or.kr/quick_reference_cards/Unix-Linux/Linux%20Command%20Line%20Cheat%20Sheet.pdf)
 - [useful link](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+- [cheat sheet](https://phoenixnap.com/kb/linux-commands-cheat-sheet)
 
 - ls : List of all the files in a directory
 - ps : Dislay all the currently running process
